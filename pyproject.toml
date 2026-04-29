@@ -4,4 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain>=1.2.15",
+    "langchain-anthropic>=1.4.1",
+    "langgraph>=1.1.10",
+    "langmem>=0.0.30",
+    "mem0ai>=2.0.1",
+    "pyautogen>=0.10.0",
+    "python-dotenv>=1.2.2",
+    "supabase>=2.29.0",
+    "vecs>=0.4.5",
+]
